@@ -15,8 +15,8 @@ function print_color_map() {
     for (let l = 0; l < minorColors.length; l++) {
       const index = k * 5 + (l + 1);
       const indexString = index.toString().padEnd(maxIndexLength, ' ');
-      const majorString = majorColors[i].padEnd(maxMajorLength, ' ');
-      map.push(`${indexString} | ${majorString} | ${minorColors[j]}`);
+      const majorString = majorColors[k].padEnd(maxMajorLength, ' ');
+      map.push(`${indexString} | ${majorString} | ${minorColors[l]}`);
     }
   }
   return map;
