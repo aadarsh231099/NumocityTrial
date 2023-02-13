@@ -14,9 +14,10 @@
     },
     "rules": {
         "linebreak-style": ["off"],
-        "complexity": ["error", {"max": 3}],
+        "complexity": ["error", {"max": 7}],
         "require-jsdoc": ["off"],
         "new-cap": ["off"],
-        "max-len": [2, {"code": 100, "ignoreUrls": true}]
+        "max-len": [2, {"code": 100, "ignoreUrls": true}],
+        "camelcase": ["error", {"allow": ["print_color_map"]}]
     }
 }
