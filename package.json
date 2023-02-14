@@ -28,6 +28,10 @@
     "eslint-config-google": "^0.14.0",
     "jscpd": "^3.4.5",
     "mocha": "^9.2.2",
-    "nyc": "^15.1.0"
+    "nyc": "^15.1.0",
+    "ws": "^8.12.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
